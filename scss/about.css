@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+.active {
+  color: #00f7ff;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body .main-section {
+  color: #0000AC;
+  padding: 2em 0;
+  text-align: center;
+}
+
+body .main-section .menu-div {
+  width: 100%;
+  text-align: right;
+  z-index: 999;
+}
+
+body .main-section .menu-div svg {
+  width: 3em;
+  height: 3em;
+  color: #0000AC;
+}
+
+body .main-section .navlist {
+  height: 100vh;
+  width: 100vw;
+  background-color: #0000AC;
+  text-align: center;
+  color: white;
+  padding-top: 7em;
+  position: absolute;
+  top: 0;
+  z-index: 999;
+  display: none;
+}
+
+body .main-section .navlist .cross-icon {
+  position: absolute;
+  right: 1.5em;
+  top: 2.5em;
+  width: 2em;
+}
+
+body .main-section .navlist .cross-icon:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+}
+
+body .main-section .navlist li {
+  margin-bottom: 3em;
+  font-size: 1.5em;
+}
+
+body .main-section .navlist li:hover {
+  font-weight: bold;
+  color: #0000AC;
+}
+
+body .main-section h1 {
+  padding: 1em;
+  text-align: start;
+}
+
+body .main-section img {
+  width: 20em;
+}
+
+body .sec-section {
+  color: white;
+  text-align: center;
+}
+
+body .sec-section h1 {
+  text-align: right;
+  padding: 1em;
+  background-color: #0000AC;
+}
+
+body .sec-section img {
+  width: 20em;
+}
+
+body .thrd-section {
+  color: #0000AC;
+}
+
+body .thrd-section h1 {
+  padding: 1em;
+}
+
+body .thrd-section img {
+  width: 20em;
+  padding: 1em;
+}
+
+body footer {
+  background-color: #0000AC;
+  color: white;
+  padding: 1em;
+}
+
+body footer .foot-sec-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+body footer .foot-sec-1 li {
+  padding-bottom: 1em;
+}
+
+body footer .foot-sec-1 li a:hover {
+  color: #00f7ff;
+}
+
+body footer .foot-sec-1 .contact-numbers .numb {
+  padding-bottom: 1em;
+}
+
+body footer .foot-sec-1 .contact-numbers svg {
+  width: 1em;
+}
+
+body footer .foot-sec-1 .social-media li {
+  padding: 0.5em;
+}
+
+body footer .foot-sec-1 .social-media li svg {
+  width: 1.5em;
+}
+
+body footer .foot-sec-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding: 0 2em;
+}
+
+body footer .foot-sec-2 .office-address {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  font-size: 0.8em;
+}
+
+body footer .foot-sec-2 .office-address svg {
+  display: inline;
+}
+
+body footer .foot-sec-2 .office-address p {
+  display: inline;
+}
+
+body footer .downtext {
+  padding-top: 4em;
+  text-align: center;
+  font-size: 0.7em;
+}
+/*# sourceMappingURL=about.css.map */
